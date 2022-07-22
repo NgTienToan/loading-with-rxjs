@@ -5,11 +5,13 @@ import styles from '../styles/Home.module.css'
 import VanMau from './vanmau'
 
 const Home: NextPage = () => {
-  const [isSSR, setIsSSR] = useState(true);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setIsSSR(false);
+    setMounted(true);
   }, []);
+
+  if (!mounted) return null;
 
   return (
     <div className={styles.container}>
@@ -18,7 +20,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Văn mẫu chửi wibu" />
         <link rel="icon" href="/thumb.jpg" />
       </Head>
-      {!isSSR && <VanMau />}
+      <VanMau />
     </div>
   )
 }
