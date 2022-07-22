@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Dit me wibu</title>
-        <meta name="description" content="Đây là page chửi dit me wjbu" />
+        <meta name="description" content="Văn mẫu chửi wibu" />
         <link rel="icon" href="/thumb.jpg" />
       </Head>
       <VanMau />
