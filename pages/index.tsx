@@ -19,6 +19,8 @@ const Home: NextPage = () => {
         <title>Dit me wibu</title>
         <meta name="description" content="Văn mẫu chửi wibu" />
         <link rel="icon" href="/thumb.jpg" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6725769539630233"
+          crossOrigin="anonymous"></script>
       </Head>
       <VanMau />
     </div>
