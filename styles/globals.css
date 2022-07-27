@@ -14,20 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.layout {
-  text-align: center;
-  max-width: 1200px;
-  margin: 50px auto;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-
-  body {
-    color: white;
-    background: black;
-  }
-}
